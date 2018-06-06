@@ -1,0 +1,19 @@
+{
+  "name": "sublime-redux-snippets",
+  "version": "1.0.0",
+  "author": "Curtis M. Humphrey, Ph.D.",
+  "license": "MIT",
+  "description": "Sublime Text snippets for Redux",
+  "scripts": {
+    "build-docs": "node ./generateReadme.js",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CurtisHumphrey/sublime-redux-snippets.git"
+  },
+  "dependencies": {
+    "standard-version": "^4.3.0"
+  }
+}

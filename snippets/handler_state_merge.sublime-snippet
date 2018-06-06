@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+(state, {payload}) => state.merge({
+  ${1}
+}),
+]]></content>
+  <tabTrigger>spm</tabTrigger>
+  <description>Redux: (state, {payload}) => state.merge({</description>
+  <scope>source.js</scope>
+</snippet>
